@@ -6,28 +6,24 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
-  /* @include desktop {
-    font-size: 70%;
-  } */
 }
 body {
   background-color: color(black);
 }
 .header {
-  position: relative;
-  height: 100vh;
-
-  // background-color: rgba(color(primary), 1);
-  background-image:
-    url(../media/dubaicity.jpg);
-  background-position: fixed;
   background-size: cover;
-
- 
+  background-position: center;
+  background-image: url(../media/dubaicity.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 95vh;
+width: 99%;
+display: flex;
+margin: 1rem;
 
   .text-box {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
