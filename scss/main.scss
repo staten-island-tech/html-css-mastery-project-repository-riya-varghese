@@ -59,24 +59,40 @@ margin: 1rem;
         letter-spacing: 2.2rem;
       }
     }
-    .heading-primary-sub {
+  .heading-primary-sub {
       font-size: 1.5rem;
       width: 80vw;
       margin: 0 auto;
       text-align: left;
       color: white;
-      @include laptop {
-        font-size: 3rem;
+       @include laptop {
+          font-size: 3rem;
+       }
       }
-    }
   }
 }
-@keyframes slide-in {
-  0% {
+  @keyframes slide-in {
+    0% {
     transform: translateY(-200rem);
-  }
-  100% {
+    }
+    100% {
     transform: translateY(-100);
-  }
+    }
 }
-
+.gallery-hotels-text{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  width: 80vw;
+  letter-spacing: .5rem;
+  text-align: center;
+  margin: 0 auto;
+    @include tablet {
+      font-size: 6rem;
+      letter-spacing: .5rem;
+    }
+    @include laptop {
+      font-size: 6rem;
+      letter-spacing: .5rem;
+    }
+}
