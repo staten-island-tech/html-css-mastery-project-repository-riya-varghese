@@ -46,3 +46,12 @@
         width: auto;
     }
 }
+.user-gallery2-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include laptop{
+        height: 90vh;
+    }
+}
