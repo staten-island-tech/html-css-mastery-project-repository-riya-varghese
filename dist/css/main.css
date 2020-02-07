@@ -139,9 +139,18 @@
           perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .card-side {
@@ -158,6 +167,7 @@
 .card-side-front {
   background-image: url("../media/burj khalifa 1.jpg");
   background-position: center;
+  height: 500px;
   position: relative;
   z-index: 1;
   -webkit-transition: all 1s;
@@ -182,6 +192,92 @@
 }
 
 .card:hover .card-side-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.card-side2 {
+  height: 500px;
+  width: 300px;
+  font-size: 15px;
+  color: white;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card-side2-front {
+  background-image: url("../media/dubaimall.jpg");
+  background-position: center;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card-side2-back {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card:hover .card-side2-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card:hover .card-side2-back {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.card-side3 {
+  height: 500px;
+  width: 300px;
+  font-size: 15px;
+  color: white;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.card-side3-front {
+  background-image: url("../media/fountain.jpg");
+  background-position: center;
+  height: 500px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card-side3-back {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card:hover .card-side3-front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card:hover .card-side3-back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
