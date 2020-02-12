@@ -5,14 +5,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @include phone{
+        font-size: 1rem;
+        justify-content: center;
+     }
     @include laptop{
         height: 90vh;
     }
+    
 }
 .user-gallery-header{
     font-size: 2rem;
     color: white;
     text-transform: uppercase;
+    @include phone{
+       font-size: 1rem;
+    }
     @include tablet {
         font-size: 3rem;
     }
@@ -24,6 +32,7 @@
     @include desktop {
         font-size: 5rem;
     }
+
 }
 .user-gallery-gallery{
     width: 100%;
@@ -78,6 +87,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
 }
 .card-side{
     height: 500px;
@@ -86,6 +96,14 @@
     color: white;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    }
 }
 .card-side-front{
     background-image: url("../media/burj khalifa 1.jpg");
@@ -94,6 +112,14 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    }
 }
 .card-side-back{
     background-color: rgb(22, 140, 187);
@@ -119,6 +145,14 @@
     background-color: black;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    }
 }
 .card-side2-front{
     background-image: url("../media/dubaimall.jpg");
@@ -127,6 +161,14 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    }
 }
 .card-side2-back{
     background-color: rgb(134, 9, 9);
@@ -152,6 +194,14 @@
     color: white;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    }
 }
 .card-side3-front{
     background-image: url("../media/dubai fountain.jpg");
@@ -160,6 +210,14 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    @include tablet{
+        height: 300px;
+       width: 200px;
+    }
 }
 .card-side3-back{
     background-color:grey;
