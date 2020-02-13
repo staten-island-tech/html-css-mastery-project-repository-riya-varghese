@@ -12,7 +12,14 @@ html {
  }
 }
 body {
-  background-color: color(black);
+  background-color: black;
+  
+  @include tablet{
+    background-color: black;
+  @include phone{
+    background-color: black;
+  }
+}
 }
 .header {
   background-size: cover;
@@ -54,18 +61,15 @@ margin: 1rem;
       letter-spacing: 1rem;
      text-align: left;
       margin: 0 auto;
-      @include phone{
-        font-size: 1rem;
-       
-     }
       @include tablet {
         font-size: 6rem;
         letter-spacing: 1.8rem;
       }
-      @include laptop {
+      @include phone{
         font-size: 10rem;
-        letter-spacing: 2.2rem;
-      }
+       
+     }
+
     }
   .heading-primary-sub {
       font-size: 1.5rem;
@@ -73,11 +77,13 @@ margin: 1rem;
       margin: 0 auto;
       text-align: left;
       color: white;
-       @include laptop {
-          font-size: 3rem;
-       }
       }
-  }
+      @include phone{
+        font-size: 4rem;
+       
+     }
+    }
+  
 }
   @keyframes slide-in {
     0% {
@@ -99,8 +105,5 @@ margin: 1rem;
       font-size: 6rem;
       letter-spacing: .5rem;
     }
-    @include laptop {
-      font-size: 6rem;
-      letter-spacing: .5rem;
-    }
+    
 }

@@ -96,14 +96,15 @@
     color: white;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    @include tablet{
+        height: 300px;
+        width: 200px;
+    } 
     @include phone{
         height: 200px;
         width: 100px;
     }
-    @include tablet{
-        height: 300px;
-        width: 200px;
-    }
+  
 }
 .card-side-front{
     background-image: url("../media/burj khalifa 1.jpg");
@@ -112,14 +113,15 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
-    @include phone{
-        height: 200px;
-        width: 100px;
-    }
     @include tablet{
         height: 300px;
         width: 200px;
     }
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    
 }
 .card-side-back{
     background-color: rgb(22, 140, 187);
@@ -145,13 +147,14 @@
     background-color: black;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
+    @include tablet{
+    height: 300px;
+    width: 200px;
+    }
     @include phone{
         height: 200px;
         width: 100px;
-    }
-    @include tablet{
-        height: 300px;
-        width: 200px;
+    
     }
 }
 .card-side2-front{
@@ -161,14 +164,15 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
-    @include phone{
-        height: 200px;
-        width: 100px;
-    }
     @include tablet{
         height: 300px;
         width: 200px;
     }
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    
 }
 .card-side2-back{
     background-color: rgb(134, 9, 9);
@@ -194,14 +198,15 @@
     color: white;
     backface-visibility: hidden;
     box-shadow: 0 1.5rem 4rem rgba(0,0,0,.15);
-    @include phone{
-        height: 200px;
-        width: 100px;
-    }
     @include tablet{
         height: 300px;
         width: 200px;
     }
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+  
 }
 .card-side3-front{
     background-image: url("../media/dubai fountain.jpg");
@@ -210,14 +215,15 @@
     position: relative;
     z-index: 1;
     transition: all 1s;
-    @include phone{
-        height: 200px;
-        width: 100px;
-    }
     @include tablet{
         height: 300px;
        width: 200px;
     }
+    @include phone{
+        height: 200px;
+        width: 100px;
+    }
+    
 }
 .card-side3-back{
     background-color:grey;
