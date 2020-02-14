@@ -15,7 +15,7 @@
     
 }
 .user-gallery-header{
-    font-size: 2rem;
+    font-size: 5rem;
     color: white;
     text-transform: uppercase;
     @include phone{
@@ -25,13 +25,7 @@
         font-size: 3rem;
     }
     
-    @include laptop {
-        font-size: 4rem;
-    }
-
-    @include desktop {
-        font-size: 5rem;
-    }
+   
 
 }
 .user-gallery-gallery{

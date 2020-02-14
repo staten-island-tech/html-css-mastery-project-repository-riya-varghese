@@ -30,7 +30,7 @@
 }
 
 .user-gallery-header {
-  font-size: 2rem;
+  font-size: 5rem;
   color: white;
   text-transform: uppercase;
 }
@@ -44,18 +44,6 @@
 @media (max-width: 768px) {
   .user-gallery-header {
     font-size: 3rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .user-gallery-header {
-    font-size: 4rem;
-  }
-}
-
-@media (max-width: 1100px) {
-  .user-gallery-header {
-    font-size: 5rem;
   }
 }
 
@@ -466,7 +454,7 @@ body {
 }
 
 .header .heading-primary .heading-primary-main {
-  font-size: 4rem;
+  font-size: 10rem;
   text-shadow: 3px 3px #333;
   width: 80vw;
   letter-spacing: 1rem;
@@ -488,7 +476,7 @@ body {
 }
 
 .header .heading-primary .heading-primary-sub {
-  font-size: 1.5rem;
+  font-size: 3rem;
   width: 80vw;
   margin: 0 auto;
   text-align: left;
@@ -526,7 +514,7 @@ body {
 .gallery-hotels-text {
   color: white;
   text-transform: capitalize;
-  font-size: 1rem;
+  font-size: 5rem;
   width: 80vw;
   letter-spacing: .5rem;
   text-align: center;
@@ -535,8 +523,8 @@ body {
 
 @media (max-width: 768px) {
   .gallery-hotels-text {
-    font-size: 6rem;
-    letter-spacing: .5rem;
+    font-size: 4rem;
+    letter-spacing: 0rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
