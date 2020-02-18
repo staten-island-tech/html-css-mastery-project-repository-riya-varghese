@@ -102,5 +102,16 @@ margin: 1rem;
   text-align: center;
   margin: 0 auto;
   padding: 5rem;
- 
+  @include desktop{
+    padding: 5rem;
+  }
+  @include laptop {
+    padding: 5rem;
+  }
+    @include tablet {
+      font-size: 4rem;
+      letter-spacing: 0rem;
+      padding: 5rem;
+    }
+    
 }
