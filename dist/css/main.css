@@ -417,7 +417,7 @@
 }
 
 .card-side4-front {
-  background-image: url("../media/burj khalifa 1.jpg");
+  background-image: url("../media/dubai hotel 1.jpg");
   background-position: center;
   height: 500px;
   position: relative;
@@ -441,7 +441,7 @@
 }
 
 .card-side4-back {
-  background-color: #168cbb;
+  background-color: color= "#203c47";
   color: white;
   position: absolute;
   top: 0;
@@ -489,7 +489,7 @@
 }
 
 .card-side5-front {
-  background-image: url("../media/dubaimall.jpg");
+  background-image: url("../media/dubai hotel 2.jpg");
   background-position: center;
   height: 500px;
   position: relative;
@@ -561,7 +561,7 @@
 }
 
 .card-side6-front {
-  background-image: url("../media/dubai fountain.jpg");
+  background-image: url("../media/dubai hotel 3.webp");
   background-position: center;
   height: 500px;
   position: relative;
