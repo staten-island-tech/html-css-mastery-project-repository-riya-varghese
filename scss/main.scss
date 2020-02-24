@@ -1,3 +1,4 @@
+
 @import "_variables.scss";
 @import "_usergallery.scss";
 html {
@@ -31,7 +32,7 @@ body {
 width: 99%;
 display: flex;
 margin: 1rem;
-
+ 
   .text-box {
     position: absolute;
     top: 20%;
@@ -53,7 +54,7 @@ margin: 1rem;
     animation-name: slide-in;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-
+ 
     .heading-primary-main {
       font-size: 10rem;
       text-shadow: 3px 3px #333;
@@ -69,7 +70,7 @@ margin: 1rem;
         font-size: 10rem;
        
      }
-
+ 
     }
   .heading-primary-sub {
       font-size: 3rem;
@@ -101,9 +102,20 @@ margin: 1rem;
   letter-spacing: .5rem;
   text-align: center;
   margin: 0 auto;
+  padding: 5rem;
+  @include desktop{
+    padding: 5rem;
+  }
+  @include laptop {
+    padding: 5rem;
+  }
     @include tablet {
       font-size: 4rem;
       letter-spacing: 0rem;
+      padding: 5rem;
     }
     
 }
+ 
+
+
