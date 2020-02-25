@@ -143,8 +143,6 @@
   -moz-perspective: 150rem;
   position: relative;
   margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,6 +152,7 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 100%;
 }
 
 .card-side {
@@ -182,6 +181,7 @@
 }
 
 .card-side-front {
+  background-size: cover;
   background-image: url("../media/burj khalifa 1.jpg");
   background-position: center;
   height: 500px;
@@ -210,7 +210,6 @@
   color: white;
   position: absolute;
   top: 0;
-  left: 0;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -254,6 +253,7 @@
 }
 
 .card-side2-front {
+  background-size: cover;
   background-image: url("../media/dubaimall.jpg");
   background-position: center;
   height: 500px;
@@ -282,7 +282,6 @@
   color: white;
   position: absolute;
   top: 0;
-  left: 30rem;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -326,6 +325,7 @@
 }
 
 .card-side3-front {
+  background-size: cover;
   background-image: url("../media/dubai fountain.jpg");
   background-position: center;
   height: 500px;
@@ -354,7 +354,6 @@
   color: white;
   position: absolute;
   top: 0;
-  left: 59.8rem;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -378,8 +377,7 @@
   -moz-perspective: 150rem;
   position: relative;
   margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -417,6 +415,7 @@
 }
 
 .card-side4-front {
+  background-size: cover;
   background-image: url("../media/dubai hotel 1.jpg");
   background-position: center;
   height: 500px;
@@ -441,11 +440,10 @@
 }
 
 .card-side4-back {
-  background-color: color= "#203c47";
+  background-color: #4b4b8d;
   color: white;
   position: absolute;
   top: 0;
-  left: 0;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -489,6 +487,7 @@
 }
 
 .card-side5-front {
+  background-size: cover;
   background-image: url("../media/dubai hotel 2.jpg");
   background-position: center;
   height: 500px;
@@ -517,7 +516,6 @@
   color: white;
   position: absolute;
   top: 0;
-  left: 30rem;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
@@ -561,6 +559,7 @@
 }
 
 .card-side6-front {
+  background-size: cover;
   background-image: url("../media/dubai hotel 3.webp");
   background-position: center;
   height: 500px;
@@ -589,7 +588,6 @@
   color: white;
   position: absolute;
   top: 0;
-  left: 59.8rem;
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
