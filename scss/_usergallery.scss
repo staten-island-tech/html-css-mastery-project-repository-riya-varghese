@@ -280,7 +280,7 @@
     
 }
 .card-side4-back{
-    background-color: rgb(75, 75, 141);
+    background-color: rgb(65, 83, 117);
     color: white;
     position: absolute;
     top: 0;
@@ -331,7 +331,7 @@
     
 }
 .card-side5-back{
-    background-color: rgb(134, 9, 9);
+    background-color: rgb(10, 185, 197);
     color:white;
     position: absolute;
     top: 0;
@@ -382,7 +382,7 @@
     
 }
 .card-side6-back{
-    background-color:grey;
+    background-color:rgb(107, 109, 189);
     color: white;
     position: absolute;
     top: 0;
@@ -396,4 +396,10 @@
 .cardset2:hover .card-side6-back{
     transform: rotateY(0deg);
 }
-
+.website{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 50;
+}

@@ -440,7 +440,7 @@
 }
 
 .card-side4-back {
-  background-color: #4b4b8d;
+  background-color: #415375;
   color: white;
   position: absolute;
   top: 0;
@@ -512,7 +512,7 @@
 }
 
 .card-side5-back {
-  background-color: #860909;
+  background-color: #0ab9c5;
   color: white;
   position: absolute;
   top: 0;
@@ -584,7 +584,7 @@
 }
 
 .card-side6-back {
-  background-color: grey;
+  background-color: #6b6dbd;
   color: white;
   position: absolute;
   top: 0;
@@ -603,6 +603,18 @@
 .cardset2:hover .card-side6-back {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
+}
+
+.website {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  z-index: 50;
 }
 
 html {
