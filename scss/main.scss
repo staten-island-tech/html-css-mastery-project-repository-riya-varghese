@@ -14,7 +14,7 @@ html {
 }
 body {
   background-color: black;
-  
+  z-index: 1;
   @include tablet{
     background-color: black;
   @include phone{

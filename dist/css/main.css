@@ -606,7 +606,7 @@
 }
 
 .website {
-  width: 50%;
+  width: 50rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -615,6 +615,7 @@
           align-items: center;
   margin: 0 auto;
   z-index: 50;
+  height: 50rem;
 }
 
 html {
@@ -634,6 +635,7 @@ html {
 
 body {
   background-color: black;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
