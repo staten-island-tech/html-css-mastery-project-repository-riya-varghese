@@ -396,11 +396,50 @@
 .cardset2:hover .card-side6-back{
     transform: rotateY(0deg);
 }
-.website{
-    width: 50rem;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    z-index: 50;
-    height: 50rem;
+.pictures{
+    flex-flow: row;
 }
+
+#review1:hover{
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  border-width: 100%;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+#review1{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    flex-grow: 1;
+    width:50rem;
+    border-width: 50%;
+}
+
+#review2:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    border-width: 100%;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
+  #review2{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+      flex-grow: 1;
+      width:50rem;
+      border-width: 50%;
+  }
+  #review3:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    border-width: 100%;
+  }
+  #review3{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+      flex-grow: 1;
+      width:50rem;
+      border-width: 50%;
+  }
