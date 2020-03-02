@@ -33,6 +33,7 @@
   font-size: 5rem;
   color: white;
   text-transform: uppercase;
+  text-align: center;
 }
 
 @media (max-width: 375px) {
@@ -138,6 +139,7 @@
 }
 
 .card {
+  background: hotpink;
   -webkit-perspective: 150rem;
           perspective: 150rem;
   -moz-perspective: 150rem;
@@ -152,7 +154,13 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90rem;
   width: 100%;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .card-side {
@@ -207,6 +215,9 @@
 
 .card-side-back {
   background-color: #168cbb;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
   position: absolute;
   top: 0;
@@ -259,8 +270,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 @media (max-width: 768px) {
@@ -285,8 +296,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 .card:hover .card-side2-front {
@@ -331,8 +342,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
 @media (max-width: 768px) {
@@ -357,8 +368,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
 .card:hover .card-side3-front {
@@ -421,8 +432,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
 @media (max-width: 768px) {
@@ -447,8 +458,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 3s;
+  transition: all 3s;
 }
 
 .cardset2:hover .card-side4-front {
@@ -493,8 +504,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 @media (max-width: 768px) {
@@ -519,8 +530,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 2s;
+  transition: all 2s;
 }
 
 .cardset2:hover .card-side5-front {
@@ -584,7 +595,7 @@
 }
 
 .card-side6-back {
-  background-color: #6b6dbd;
+  background-color: #a38b00;
   color: white;
   position: absolute;
   top: 0;
@@ -682,19 +693,22 @@ html {
 }
 
 body {
-  background-color: rgba(8, 0, 83, 0.575);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
+  background: linear-gradient(#000000, #073cad);
   z-index: 1;
 }
 
 @media (max-width: 768px) {
   body {
-    background-color: rgba(0, 1, 48, 0.856);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
+    background: linear-gradient(#000000, #073cad);
   }
 }
 
 @media (max-width: 768px) and (max-width: 375px) {
   body {
-    background-color: #000147;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
+    background: linear-gradient(#000000, #073cad);
   }
 }
 
