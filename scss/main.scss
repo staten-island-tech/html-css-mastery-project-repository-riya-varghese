@@ -13,8 +13,13 @@ html {
  }
 }
 body {
+<<<<<<< HEAD
   background: linear-gradient(#000000,  #073cad);
   z-index: 1;
+=======
+  background-color: black;
+  
+>>>>>>> parent of 9116b4a... more
   @include tablet{
     background: linear-gradient(#000000,  #073cad);
   @include phone{

@@ -616,6 +616,7 @@
           transform: rotateY(0deg);
 }
 
+<<<<<<< HEAD
 .pictures {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -676,6 +677,18 @@
           flex-grow: 1;
   width: 50rem;
   border-width: 50%;
+=======
+.website {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  z-index: 50;
+>>>>>>> parent of 9116b4a... more
 }
 
 html {
@@ -694,9 +707,13 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
   background: linear-gradient(#000000, #073cad);
   z-index: 1;
+=======
+  background-color: black;
+>>>>>>> parent of 9116b4a... more
 }
 
 @media (max-width: 768px) {
