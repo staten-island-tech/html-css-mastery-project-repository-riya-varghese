@@ -621,6 +621,7 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
+  width: 100%;
 }
 
 #review1:hover {
