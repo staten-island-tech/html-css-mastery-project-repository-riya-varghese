@@ -18,7 +18,6 @@
     font-size: 5rem;
     color: white;
     text-transform: uppercase;
-    text-align: center;
     @include phone{
        font-size: 1rem;
     }
@@ -73,7 +72,6 @@
     }
 }
 .card{
-    background: hotpink;
     perspective: 150rem; 
     -moz-perspective: 150rem;
     position: relative;
@@ -81,10 +79,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    height: 90rem;
    width:100%;
-   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 .card-side{
     height: 500px;
@@ -123,7 +118,6 @@
 }
 .card-side-back{
     background-color: rgb(22, 140, 187);
-    align-items: center;
     color: white;
     position: absolute;
     top: 0;
@@ -162,7 +156,7 @@
     height: 500px;
     position: relative;
     z-index: 1;
-    transition: all 2s;
+    transition: all 1s;
     @include tablet{
         height: 300px;
         width: 200px;
@@ -180,7 +174,7 @@
     top: 0;
     z-index: 0;
     transform: rotateY(-180deg);
-    transition: all 2s;
+    transition: all 1s;
 }
 .card:hover .card-side2-front{
     transform: rotateY(-180deg);
@@ -213,7 +207,7 @@
     height: 500px;
     position: relative;
     z-index: 1;
-    transition: all 3s;
+    transition: all 1s;
     @include tablet{
         height: 300px;
        width: 200px;
@@ -231,7 +225,7 @@
     top: 0;
     z-index: 0;
     transform: rotateY(-180deg);
-    transition: all 3s;
+    transition: all 1s;
 }
 .card:hover .card-side3-front{
     transform: rotateY(-180deg);
@@ -274,7 +268,7 @@
     height: 500px;
     position: relative;
     z-index: 1;
-    transition: all 3s;
+    transition: all 1s;
     @include tablet{
         height: 300px;
         width: 200px;
@@ -292,7 +286,7 @@
     top: 0;
     z-index: 0;
     transform: rotateY(-180deg);
-    transition: all 3s;
+    transition: all 1s;
 }
 .cardset2:hover .card-side4-front{
     transform: rotateY(-180deg);
@@ -325,7 +319,7 @@
     height: 500px;
     position: relative;
     z-index: 1;
-    transition: all 2s;
+    transition: all 1s;
     @include tablet{
         height: 300px;
         width: 200px;
@@ -343,7 +337,7 @@
     top: 0;
     z-index: 0;
     transform: rotateY(-180deg);
-    transition: all 2s;
+    transition: all 1s;
 }
 .cardset2:hover .card-side5-front{
     transform: rotateY(-180deg);
@@ -388,7 +382,7 @@
     
 }
 .card-side6-back{
-    background-color:rgb(163, 139, 0);
+    background-color:rgb(107, 109, 189);
     color: white;
     position: absolute;
     top: 0;
@@ -402,10 +396,8 @@
 .cardset2:hover .card-side6-back{
     transform: rotateY(0deg);
 }
-<<<<<<< HEAD
 .pictures{
     flex-flow: row;
-    width:100%;
 }
 
 #review1:hover{
@@ -451,12 +443,3 @@
       width:50rem;
       border-width: 50%;
   }
-=======
-.website{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    z-index: 50;
-}
->>>>>>> parent of 9116b4a... more

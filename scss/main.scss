@@ -13,12 +13,12 @@ html {
  }
 }
 body {
-  background-color: black;
-  
+  background-color: rgba(8, 0, 83, 0.575);
+  z-index: 1;
   @include tablet{
-    background: linear-gradient(#000000,  #073cad);
+    background-color: rgba(0, 1, 48, 0.856);
   @include phone{
-    background: linear-gradient(#000000,  #073cad);
+    background-color: rgb(0, 1, 71);
   }
 }
 }
@@ -29,9 +29,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 95vh;
-  width: 99%;
-  display: flex;
-  margin: 1rem;
+width: 99%;
+display: flex;
+margin: 1rem;
  
   .text-box {
     position: absolute;
@@ -116,6 +116,3 @@ body {
     }
     
 }
- 
-
-

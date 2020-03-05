@@ -33,7 +33,6 @@
   font-size: 5rem;
   color: white;
   text-transform: uppercase;
-  text-align: center;
 }
 
 @media (max-width: 375px) {
@@ -139,7 +138,6 @@
 }
 
 .card {
-  background: hotpink;
   -webkit-perspective: 150rem;
           perspective: 150rem;
   -moz-perspective: 150rem;
@@ -154,13 +152,7 @@
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 90rem;
   width: 100%;
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .card-side {
@@ -215,9 +207,6 @@
 
 .card-side-back {
   background-color: #168cbb;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: white;
   position: absolute;
   top: 0;
@@ -270,8 +259,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 @media (max-width: 768px) {
@@ -296,8 +285,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .card:hover .card-side2-front {
@@ -342,8 +331,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 3s;
-  transition: all 3s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 @media (max-width: 768px) {
@@ -368,8 +357,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 3s;
-  transition: all 3s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .card:hover .card-side3-front {
@@ -432,8 +421,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 3s;
-  transition: all 3s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 @media (max-width: 768px) {
@@ -458,8 +447,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 3s;
-  transition: all 3s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .cardset2:hover .card-side4-front {
@@ -504,8 +493,8 @@
   height: 500px;
   position: relative;
   z-index: 1;
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 @media (max-width: 768px) {
@@ -530,8 +519,8 @@
   z-index: 0;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .cardset2:hover .card-side5-front {
@@ -595,7 +584,7 @@
 }
 
 .card-side6-back {
-  background-color: #a38b00;
+  background-color: #6b6dbd;
   color: white;
   position: absolute;
   top: 0;
@@ -616,13 +605,11 @@
           transform: rotateY(0deg);
 }
 
-<<<<<<< HEAD
 .pictures {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row;
           flex-flow: row;
-  width: 100%;
 }
 
 #review1:hover {
@@ -677,18 +664,6 @@
           flex-grow: 1;
   width: 50rem;
   border-width: 50%;
-=======
-.website {
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-  z-index: 50;
->>>>>>> parent of 9116b4a... more
 }
 
 html {
@@ -707,26 +682,19 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
-  background: linear-gradient(#000000, #073cad);
+  background-color: rgba(8, 0, 83, 0.575);
   z-index: 1;
-=======
-  background-color: black;
->>>>>>> parent of 9116b4a... more
 }
 
 @media (max-width: 768px) {
   body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
-    background: linear-gradient(#000000, #073cad);
+    background-color: rgba(0, 1, 48, 0.856);
   }
 }
 
 @media (max-width: 768px) and (max-width: 375px) {
   body {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#073cad));
-    background: linear-gradient(#000000, #073cad);
+    background-color: #000147;
   }
 }
 
