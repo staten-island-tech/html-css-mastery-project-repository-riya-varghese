@@ -5,26 +5,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200vh;
     @include phone{
-        height: 140vh;
         font-size: 1rem;
-        justify-content: center;   
+        justify-content: center;
+     }
+    @include laptop{
+        height: 90vh;
     }
-}
-   
     
+}
 .user-gallery-header{
     font-size: 5rem;
     color: white;
     text-transform: uppercase;
-    align-items: center;
+    @include phone{
+       font-size: 1rem;
+    }
     @include tablet {
         font-size: 3rem;
     }
-    @include phone{
-       font-size: 3rem;
-    }
+    
+   
+ 
 }
 .user-gallery-gallery{
     width: 100%;
@@ -33,10 +35,19 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
+    @include laptop {
+        height: 60%;
+        width: 90%;
+        flex-direction: row;
+    }
 }
 .user-gallery-image{
     width:90%;
     padding: 1rem;
+    @include laptop {
+        height: 30rem;
+        width: auto;
+    }
 }
 .user-gallery-gallery-gallery{
     width: 100%;
@@ -45,14 +56,20 @@
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
-   
+    @include laptop {
+        height: 60%;
+        width: 90%;
+        flex-direction: row;
+    }
 }
 .user-gallery2-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    @include laptop{
+        height: 30rem;
+    }
 }
 .card{
     perspective: 150rem; 
@@ -379,21 +396,8 @@
 .cardset2:hover .card-side6-back{
     transform: rotateY(0deg);
 }
-.pictures-header{
-    font-size: 5rem;
-    color: white;
-    text-transform: uppercase;
-    align-items: center;
-    @include phone{
-       font-size: 1rem;
-    }
-    @include tablet {
-        font-size: 3rem;
-    } 
-}
 .pictures{
     flex-flow: row;
-    text-align: center;
 }
 
 #review1:hover{
