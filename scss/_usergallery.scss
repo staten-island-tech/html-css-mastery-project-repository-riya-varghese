@@ -5,9 +5,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 270vh;
+    @include tablet{
+        height: 130vh;
+        font-size: 1rem;
+        justify-content: center;   
+    }
     @include phone{
-        height: 140vh;
+        height: 30vh;
         font-size: 1rem;
         justify-content: center;   
     }
@@ -198,8 +203,7 @@
     @include phone{
         height: 200px;
         width: 100px;
-    }
-    
+    } 
 }
 .card-side3-back{
     background-color:grey;
